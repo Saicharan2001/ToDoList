@@ -1,0 +1,41 @@
+
+<%- include("header"); -%>
+<!-- <html>
+    <head>
+        <meta charset="utf-8">
+        <title>TodoList</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body> -->
+        <!-- <% if (kindofday === "Weekend"){ %>
+            <h1 style="color:green;"> Its a <%= kindofday %> </h1>
+        <% }else{ %>
+            <h1 style="color:red;"> Its a <%= kindofday %> </h1>
+        <% } %>
+         -->
+
+         <div class="box" id="heading">
+            <h1> <%= kindofday %></h1>
+         </div>
+         <div class="box">
+             
+            <% for(var i=0; i< adds.length ; i++){ %>
+                <div class="item">
+                    <input type="checkbox">
+                     <p> <%= adds[i] %> </p>
+                </div>
+                
+            <% } %>
+        
+            <form class="item" action="/" method="POST">
+                <input type="text" name="work" placeholder="Enter the new item" autocomplete="off">
+                <button type="submit">+</button>
+            </form>
+         </div>
+         
+         <%- include("footer"); -%>
+         <!-- <footer>
+            <p> Copyright 2019 TodoList</p>
+         </footer>
+    </body>
+</html> -->
