@@ -1,3 +1,3 @@
 # ToDoList
 
-[Click here](https://protected-fjord-72714.herokuapp.com/)
+You can view it here : [Click here](https://protected-fjord-72714.herokuapp.com/)
